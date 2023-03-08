@@ -54,6 +54,7 @@ function analisiDatos(){
         }
     }
     else if(tipoDato === "sbg rating"){
+        
         let nota = prompt("Ingrese su nota: ")
         if(nota === 0){
             console.log("Your note is Z or E")
