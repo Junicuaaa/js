@@ -29,14 +29,47 @@ function analisiDatos(){
         }
 
         else if(nota >= 90 || nota <= 100){
-            console.log("Your note is B")
+            console.log("Your note is A")
         }
     }
     else if(tipoDato === "points range"){
         let nota = prompt("Ingrese su nota: ")
+        if(nota === 0){
+            console.log("Your note is Z")
+        }
+        else if(nota === 1, nota ===2){
+            console.log("Your note is E")
+        }
+        else if(nota >= 3, nota <=5){
+            console.log("Your note is D")
+        }
+        else if(nota >= 6, nota <=8){
+            console.log("Your note is C")
+        }
+        else if(nota >=9, nota <=11){
+            console.log("Your note is B")
+        }
+        else if(nota >= 12, nota <= 14){
+            console.log("Your note is A")
+        }
     }
     else if(tipoDato === "sbg rating"){
         let nota = prompt("Ingrese su nota: ")
+        if(nota === 0){
+            console.log("Your note is Z or E")
+        }
+        else if(nota === 1){
+            console.log("Your note is D")
+        }
+        else if(nota === 2){
+             console.log("Your note is C")
+        }
+        else if(nota === 3){
+            console.log("Your note is B")
+        }
+        else if(nota === 4){
+            console.log("Your note is A")
+        }
     }
 };
 
